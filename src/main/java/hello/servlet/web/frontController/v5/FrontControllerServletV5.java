@@ -73,7 +73,7 @@ public class FrontControllerServletV5 extends HttpServlet {
                 return adapter;
             }
         }
-        throw new IllegalArgumentException("Not Found HandlerAdapter: Handelr = " + handler);
+        throw new IllegalArgumentException("Not Found HandlerAdapter: Handler = " + handler);
     }
 
     private Object getHandler(HttpServletRequest request) {
